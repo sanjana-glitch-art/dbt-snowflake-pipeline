@@ -1,0 +1,10 @@
+sources:
+  - name: raw
+    database: USER_DB_FLAMINGO
+    schema: RAW
+    description: "schema which stores raw tables from ETL"
+    tables:
+      - name: user_session_channel
+        identifier: user_session_channel 
+      - name: session_timestamp
+        identifier: session_timestamp
