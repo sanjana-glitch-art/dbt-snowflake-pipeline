@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: session_summary
+    description: "analytics model for session data"
+    columns:
+      - name: sessionId
+        description: "session identifier"
+        data_tests:
+          - unique
+          - not_null
